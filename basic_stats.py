@@ -78,8 +78,11 @@ def basic_stats(persons):
 # Returns a tuple of the mean, median, mode
     return (mean, median, mode)
 
+
+
+
 # This is the list of person objects
-persons = [a, b, c, d, e, f, g, h]
+persons = []
 
 # Calling basic_stats in order to get tuple of stats
 values = basic_stats(persons)
